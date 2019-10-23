@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>List Coins</h1>
+    <coin-list/>
   </div>
 </template>
+<script>
+import CoinList from '@/components/CoinList'
+export default {
+  components: { CoinList }
+}
+</script>
