@@ -6,9 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     coins: [
-      {name: "Bitcoin",id: "btc"},
-      {name: "Ethereum",id: "eth"},
-      {name: "Ripple",id: "xrp"}
+      {name: "",id: "", rank: null, type: ""},
     ]
   },
   mutations: {

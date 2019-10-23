@@ -1,11 +1,17 @@
 <template>
-    <div v-if="coins.length > 0">
-        <div  v-for="(coin, index) in coins"
-            :key="coin.id"
-        >
-           {{index}} {{ coin.name }}
-        </div>
-    </div>
+    <v-container fluid>
+        <v-text-field
+            label="Search"
+            v-model="searchString"/>
+        <v-data-table
+            :headers="headers"
+            :items="coins"
+            :items-per-page="10"
+            :search="searchString"
+            class="elevation-1"
+            loading
+        ></v-data-table>
+    </v-container>
 </template>
 
 <script>
@@ -23,6 +29,25 @@ export default {
         ...mapState({
             coins: state => state.coins
         })
+    },
+    data() {
+        return {
+            searchString : '',
+            headers: [
+                {
+                    text: "Rank", value: "rank", filterable: false
+                },
+                {
+                    text: "Name", value: "name"
+                },
+                {
+                    text: "Symbol", value: "symbol"
+                },
+                {
+                    text: "Type", value: "type", filterable: false
+                }
+            ],
+        };
     },
 };
 </script>
