@@ -23,14 +23,13 @@
     "@vue/cli-plugin-vuex": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
-    "apollo-client": "^2.6.4",
+    "axios": "^0.18.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "graphql-tag": "^2.9.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "vue-cli-plugin-apollo": "^0.21.3",
+    "vue-cli-plugin-axios": "^0.0.4",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
