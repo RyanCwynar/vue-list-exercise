@@ -2,13 +2,14 @@
     <v-container fluid>
         <v-text-field
             label="Search"
-            v-model="searchString"/>
+            v-model="search"/>
         <v-data-table
             :headers="headers"
             :items="coins"
             :items-per-page="10"
-            :search="searchString"
+            :search="search"
             class="elevation-1"
+            @click:row="goToCoin($event)"
             loading
         ></v-data-table>
     </v-container>
@@ -27,12 +28,19 @@ export default {
     },
     computed: {
         ...mapState({
-            coins: state => state.coins
-        })
+            coins: state => state.coins,
+        }),
+        search: {
+            get() {
+                return this.$store.state.search;
+            },
+            set(v) {
+                this.$store.commit('setSearch', v);
+            }
+        }
     },
     data() {
         return {
-            searchString : '',
             headers: [
                 {
                     text: "Rank", value: "rank", filterable: false
@@ -49,5 +57,10 @@ export default {
             ],
         };
     },
+    methods: {
+        goToCoin({id}) {
+            this.$router.push(`/coin/${id}`);
+        }
+    }
 };
 </script>
