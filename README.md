@@ -1,7 +1,7 @@
 # Trivial Vue List App
 
 ## Run locally in container
-This will build an image, launch the container and expose port 3000
+This will build an image, launch the container and expose port 8080
 ```
 docker-compose up
 ```
