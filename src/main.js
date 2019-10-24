@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import Vuetify from 'vuetify/lib';
 import AxiosPlugin from './plugins/axios'
 import App from './App.vue'
 import router from './router'
@@ -11,7 +10,6 @@ import '@mdi/font/css/materialdesignicons.css'
 Vue.config.productionTip = false
 
 Vue.use(AxiosPlugin)
-Vue.use(Vuetify)
 
 new Vue({
   router,

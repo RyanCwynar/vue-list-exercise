@@ -4,6 +4,7 @@
             label="Search"
             :value="search"
             @input="setSearch($event)"
+            prepend-icon="mdi-magnify"
             />
         <v-data-table
             :headers="headers"
