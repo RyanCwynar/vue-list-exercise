@@ -1,29 +1,18 @@
-# vue-list-demo
+# Trivial Vue List App
 
-## Project setup
+## Run locally in container
+This will build an image, launch the container and expose port 3000
+```
+docker-compose up
+```
+
+## Development
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn run serve
 ```
 
 ### Run your unit tests
 ```
 yarn test:unit
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
