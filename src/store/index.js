@@ -1,15 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from '../plugins/axios'
 import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    search: "",
     coins: [
-      { name: "",id: "", rank: null, type: "" },
+      {
+        name: "",
+        id: "", 
+        rank: null, 
+        type: ""
+      },
     ],
-    search: ""
   },
   mutations: {
     updateCoins(state, payload) {
@@ -21,8 +27,13 @@ export default new Vuex.Store({
     }
   },
   actions: {
-  },
-  modules: {
+    getCoins({ commit }){
+      axios.get('/coins')
+        .then(({ data }) => {
+          let head = data.splice(0,20);
+          commit('updateCoins', head);
+        });
+    },
   },
   plugins: [createPersistedState()],
 })

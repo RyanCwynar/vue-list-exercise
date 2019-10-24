@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import './plugins/axios'
+import Vuetify from 'vuetify/lib';
+import AxiosPlugin from './plugins/axios'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -8,6 +9,9 @@ import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
 
 Vue.config.productionTip = false
+
+Vue.use(AxiosPlugin)
+Vue.use(Vuetify)
 
 new Vue({
   router,

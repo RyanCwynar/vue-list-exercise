@@ -1,0 +1,236 @@
+[
+{
+"id": "btc-bitcoin",
+"name": "Bitcoin",
+"symbol": "BTC",
+"rank": 1,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "eth-ethereum",
+"name": "Ethereum",
+"symbol": "ETH",
+"rank": 2,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "xrp-xrp",
+"name": "XRP",
+"symbol": "XRP",
+"rank": 3,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "usdt-tether",
+"name": "Tether",
+"symbol": "USDT",
+"rank": 4,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "bch-bitcoin-cash",
+"name": "Bitcoin Cash",
+"symbol": "BCH",
+"rank": 5,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "ltc-litecoin",
+"name": "Litecoin",
+"symbol": "LTC",
+"rank": 6,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "bnb-binance-coin",
+"name": "Binance Coin",
+"symbol": "BNB",
+"rank": 7,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "eos-eos",
+"name": "EOS",
+"symbol": "EOS",
+"rank": 8,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "bsv-bitcoin-sv",
+"name": "Bitcoin SV",
+"symbol": "BSV",
+"rank": 9,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "xlm-stellar",
+"name": "Stellar",
+"symbol": "XLM",
+"rank": 10,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "leo-leo-token",
+"name": "LEO Token",
+"symbol": "LEO",
+"rank": 11,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "trx-tron",
+"name": "TRON",
+"symbol": "TRX",
+"rank": 12,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "ada-cardano",
+"name": "Cardano",
+"symbol": "ADA",
+"rank": 13,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "xmr-monero",
+"name": "Monero",
+"symbol": "XMR",
+"rank": 14,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "link-chainlink",
+"name": "Chainlink",
+"symbol": "LINK",
+"rank": 15,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "ht-huobi-token",
+"name": "Huobi Token",
+"symbol": "HT",
+"rank": 16,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "miota-iota",
+"name": "IOTA",
+"symbol": "MIOTA",
+"rank": 17,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "dash-dash",
+"name": "Dash",
+"symbol": "DASH",
+"rank": 18,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "atom-cosmos",
+"name": "Cosmos",
+"symbol": "ATOM",
+"rank": 19,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "xtz-tezos",
+"name": "Tezos",
+"symbol": "XTZ",
+"rank": 20,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "neo-neo",
+"name": "NEO",
+"symbol": "NEO",
+"rank": 21,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "etc-ethereum-classic",
+"name": "Ethereum Classic",
+"symbol": "ETC",
+"rank": 22,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+},
+{
+"id": "usdc-usd-coin",
+"name": "USD Coin",
+"symbol": "USDC",
+"rank": 23,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "mkr-maker",
+"name": "Maker",
+"symbol": "MKR",
+"rank": 24,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "cro-cryptocom-chain",
+"name": "Crypto.com Coin",
+"symbol": "CRO",
+"rank": 25,
+"is_new": false,
+"is_active": true,
+"type": "token"
+},
+{
+"id": "xem-nem",
+"name": "NEM",
+"symbol": "XEM",
+"rank": 26,
+"is_new": false,
+"is_active": true,
+"type": "coin"
+}
+]
