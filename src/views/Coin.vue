@@ -1,8 +1,18 @@
 <template>
-    <div>
-        <h1>{{coin.name}} | {{coin.symbol}}</h1>
-        <p>Rank: {{coin.rank}}, Type: {{coin.type}}</p>
-    </div>
+    <v-container>
+        <v-card>
+            <v-card-text>
+                <div>{{coin.symbol}}</div>
+                <p class="display-1 text--primary">
+                    {{coin.name}}
+                </p>
+                <p class="text--primary">Market capitalization rank across the market: {{coin.rank}}</p>
+                <v-chip>
+                    <span style="text-transform: capitalize;">{{coin.type}}</span>
+                </v-chip>
+            </v-card-text>
+        </v-card>
+    </v-container>
 </template>
 <script>
 export default {
